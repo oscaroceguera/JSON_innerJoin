@@ -1,4 +1,4 @@
 JSON_innerJoin
 ==============
 
-Recuperar formato JSON con AJAX mediante una consulta mysql con inner join
+Generar formato JSON con PHP mediante un a consulta mysql con INNER JOIN y recuperarlo con AJAX.
