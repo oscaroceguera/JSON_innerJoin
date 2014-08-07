@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JSON - Inner Join</title>
+</head>
+<body>
+
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script>
+		$(function(){
+
+			$.ajax({
+				data : {
+					format : 'json',
+					method : 'get'
+				},
+				url : "data.php",
+				success : function(data){
+					console.log(data)
+				}
+			});
+
+		});
+	</script>
+</body>
+</html>
