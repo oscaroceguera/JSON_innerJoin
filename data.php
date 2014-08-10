@@ -24,7 +24,8 @@ while($row = mysqli_fetch_object($query)){
   // encodeado en la base de datos
   array_push($arr, array_map('utf8_encode', array(
       'pregunta' => $row->pregunta,
-      'modulo'   => $row->nomModulo
+      'modulo'   => $row->nomModulo,
+      'recomendacion'   => $row->recomendacion
     )));
 }
 
